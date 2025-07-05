@@ -1,0 +1,5 @@
+../Core/Src/ADIS16475.c:11:6:ADIS16475_Init	1
+../Core/Src/ADIS16475.c:21:10:ADIS16475_ReadRegister	3
+../Core/Src/ADIS16475.c:63:6:ADIS16475_ReadGyro	1
+../Core/Src/ADIS16475.c:80:6:ADIS16475_ReadAccel	1
+../Core/Src/ADIS16475.c:96:6:Delay_Us	2

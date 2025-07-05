@@ -1,0 +1,3 @@
+../Core/Src/comms_tasks.c:25:6:comms_task	2
+../Core/Src/comms_tasks.c:54:13:send_telemetry_uart	2
+../Core/Src/comms_tasks.c:70:13:send_telemetry_can	5
