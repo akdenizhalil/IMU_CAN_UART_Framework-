@@ -1,0 +1,23 @@
+# Build output
+/Debug/
+/Release/
+
+# STM32CubeIDE metadata
+/.settings/
+/.project
+.cproject
+.mxproject
+
+# Launch configs
+*.launch
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*~
+*.swp
+*.swo
+*.bak
+
