@@ -33,8 +33,7 @@ extern volatile uint8_t spi_timeout_flag;
 extern volatile uint8_t temp_overunder_flag;
 extern volatile uint32_t system_seconds;
 
-// === Görev Handle'ları ===
-extern TaskHandle_t handle_error_monitor_task;
+
 
 // === Pin Tanımları ===
 #define SPI1_SCK_Pin              GPIO_PIN_5
