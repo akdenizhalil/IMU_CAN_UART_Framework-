@@ -66,9 +66,9 @@ void ADIS16475_ReadGyro(float *gx, float *gy, float *gz)
     int16_t raw_y = (int16_t)ADIS16475_ReadRegister(ADIS16475_Y_GYRO_OUT);
     int16_t raw_z = (int16_t)ADIS16475_ReadRegister(ADIS16475_Z_GYRO_OUT);
 
-    *gx = raw_x * 0.05f;  // Sensör çözünürlüğü: 0.05 °/s per LSB
-    *gy = raw_y * 0.05f;
-    *gz = raw_z * 0.05f;
+    *gx = raw_x * 0.00625f;
+    *gy = raw_y * 0.00625f;
+    *gz = raw_z * 0.00625f;
 }
 
 /**
