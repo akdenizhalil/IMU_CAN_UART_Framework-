@@ -40,7 +40,7 @@ xTaskHandle handle_error_monitor_task;
 // === Ortak veri için mutex ===
 SemaphoreHandle_t xTelemetryMutex;
 
-extern TaskHandle_t handle_error_monitor_task;
+
 
 int main(void)
 {
