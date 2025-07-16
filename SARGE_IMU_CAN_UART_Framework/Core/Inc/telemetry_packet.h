@@ -36,6 +36,6 @@ extern volatile TelemetryPacket_t telemetry_packet;
 // === Fonksiyon Prototipleri ===
 
 void     telemetry_init(void);
-uint32_t get_timestamp_s(void);
+
 
 #endif /* INC_TELEMETRY_PACKET_H_ */
